@@ -23,7 +23,7 @@ const Page = () => {
     }
   }
   return (
-    <div className="flex flex-col min-h-[85vh] justify-center items-center bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364]">
+    <div className="bg-[url('https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?semt=ais_hybrid&w=740')] bg-cover bg-center flex flex-col min-h-[85vh] justify-center items-center bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364]">
       <div className="backdrop-blur-md h-80 bg-white/10 border border-white/20 rounded-xl shadow-md p-6 text-white w-150 max-w-md">
         <div className="flex items-center gap-3 w-full">
           <label className="text-white text-xl font-medium whitespace-nowrap min-w-[90px]">Enter City</label>
